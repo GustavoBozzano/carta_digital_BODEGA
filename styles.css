@@ -69,6 +69,21 @@ html {
   height: 15rem;
   border-radius: 10px;
 }
+.contein-footer {
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.classFooter > .contein-footer > span > img {
+  height: 1.5rem;
+  margin-right: 10px;
+}
+.classFooter > .contein-footer > span {
+  display: flex;
+  align-items: center;
+}
 
 @media (max-width: 680px) {
   .column-2.carta {
@@ -77,5 +92,9 @@ html {
   .alergenos > img {
     width: 100%;
     height: 100%;
+  }
+  .contein-footer {
+    flex-direction: column;
+    align-items: center;
   }
 }
