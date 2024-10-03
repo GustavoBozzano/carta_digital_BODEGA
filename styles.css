@@ -84,6 +84,9 @@ html {
   display: flex;
   align-items: center;
 }
+hr {
+  background-color: aliceblue;
+}
 
 @media (max-width: 680px) {
   .column-2.carta {
