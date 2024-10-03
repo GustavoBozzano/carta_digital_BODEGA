@@ -10,7 +10,7 @@ html {
   height: 30rem;
   display: flex;
   justify-content: center;
-  background-image: url(./img/Logo\ -\ Frase.JPG);
+  background-image: url(./img/Logos/Logo\ -\ Frase.JPG);
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: contain;
@@ -37,12 +37,15 @@ html {
 .img-plato-carta {
   display: flex;
   flex-basis: 25%;
+  height: 75px;
   justify-content: center;
 }
 
 .img-plato-carta img {
-  max-width: 100px;
+  width: 100px;
   max-height: 75px;
+  margin: 5px;
+  border-radius: 5px;
 }
 
 .title-plato-carta {
